@@ -399,6 +399,23 @@ h3 {
   gap: 26px;
 }
 
+.featured-experience {
+  background:
+    linear-gradient(135deg, rgba(154, 31, 45, 0.08), transparent 38%),
+    var(--surface);
+  border-color: rgba(154, 31, 45, 0.2);
+}
+
+.supporting-experience {
+  box-shadow: none;
+}
+
+.supporting-experience h3,
+.supporting-experience .company,
+.supporting-experience li {
+  color: #5f646b;
+}
+
 .experience-card .card-meta {
   grid-row: 1 / 4;
 }
